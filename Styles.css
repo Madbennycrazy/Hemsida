@@ -1,0 +1,14 @@
+.Anfang {
+    position: static;
+    font-size: 50px;
+    line-height: 1.4em;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 1 8px;
+}
+main > ul > li:nth-child(2n+3){
+    background-color: red;
+}
+main > ul > li:first-child{
+    background-color: red;
+}
